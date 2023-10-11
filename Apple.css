@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.newbar .logo img {
+    color: white;
+    height: 18px;
+}
+.new-icons img {
+    height: 18px;
+    margin-left: 35px;
+}
+.newbar {
+    display: flex;
+    justify-content:center;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.newbar ul {
+    display: flex;
+    list-style: none;
+}
+.newbar ul li {
+    margin-left: 30px;
+    font-size: 12px;
+}
+.words-1 h1 {
+    font-size: 50px;
+    color: white; 
+    margin-top: 25px; 
+    font-weight:550;
+}
+.words-1 h4 {
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 100;
+}
+.words-1 {
+    text-align: center;
+    margin-top: 30px;
+    line-height: 25px;
+    padding-top: 20px;
+}
+.image-1 img {
+    height: 375px;
+    padding-left: 325px;
+    margin-top: 70px;
+}
+.section-1 {
+    background-color: black;
+    cursor: pointer;
+}
+.section-1 a {
+    color: #2997ff;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.words-2 h1 {
+    font-size: 50px;
+    margin-top: 25px;
+    font-weight: 550;
+}
+.words-2 h4 {
+    font-size: 25px;
+    font-style:normal;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+.words-2 {
+    text-align: center;
+}
+.section-2 {
+    background-color:rgba(0, 0, 0, 0.035);
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+.image-2 img {
+    height: 250px;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.words-2 a {
+    text-decoration: none;
+    color: #2997ff;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight:lighter;
+}
+.image-logo img {
+    height: 45px;
+    margin-left: 43%;
+}
+.image-logo {
+    display: flex;
+    margin-top: 10px;
+    padding-top: 40px;
+}
+.image-logo h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.words-3 {
+    text-align: center;
+}
+.words-3 p {
+    font-size: 20px;
+    color: red;
+}
+.words-3 h4 {
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+}
+.words-3 a {
+    color: #2997ff;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.image-3 img {
+    width: 80%;
+    height: 350px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.section-3 {
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.words-4-1 {
+    float: left;
+    width: 49.75%;
+    background-color: black;
+    margin-top: 10px;
+    height: 575px;
+}
+.words-4-2 {
+    float: right;
+    width: 49.75%;
+    margin-top: 10px;
+    
+}
+.words-4-1 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+.words-4-2 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    padding-left:05%;
+    padding-top: 400px;
+}
+.words-4-2 img {
+    height: 40px;
+    padding-left: 30%;
+}
+.chip-icon img {
+    height: 30px;
+}
+.chip-icon p {
+    font-size: 25px;
+    margin-right: 7px;
+    color: white;
+}
+.chip-icon {
+    display: flex;
+    margin-left: 33%;
+}
+.site-words-1 a {
+    color: #2997ff;
+    text-decoration: none;
+    margin-left: 30px;
+    text-align: center;
+}
+.site-words-1 {
+    margin-left: 33%;
+    padding-top: 20px;
+}
+.words-4-2 {
+    background-image: url(Apple/Vision\ pro.jpg);
+    background-size: cover;
+    height: 575px;
+}
+.image-4-1 img {
+    height: 350px;
+}
+.words-4-2 p {
+   font-size: 20px;
+   margin-left: 20%;
+}
+.words-4-2 h5 {
+    font-size: 20px;
+    font-weight: 100;
+    color: grey;
+    margin-left: 25%;
+}
+.words-4-2 a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #2997ff;
+    margin-left: 40%;
+}
+.words-5-1 {
+    width: 49.75%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.025);
+    margin-top: 10px;
+}
+.words-5-2 {
+    width: 49.75%;
+    float: right;
+    background-color: black;
+    margin-top: 10px;
+}
+.words-5-1 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+}
+.words-5-2 h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+.words-5-1 p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+}
+.words-5-2 p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+.words-5-1 a {
+    font-size: 15px;
+    color: #2997ff;
+    padding-right: 25px;
+    text-decoration: none;
+}
+.words-5-2 a {
+    font-size: 15px;
+    color: #2997ff;
+    padding-right: 25px;
+    text-decoration: none;
+}
+.image-5-1 img {
+    height: 375px;
+    padding-left: 20%;
+}
+.image-5-2 img {
+    height: 375px;
+    padding-left: 20%;
+}
+.words-6-1 {
+    width: 49.75%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.025);
+    margin-top: 10px;
+    text-align: center;
+}
+.words-6-2 {
+    width: 49.75%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.025);
+    margin-top: 10px;
+    text-align: center;
+}
+.words-6-1 h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 60px;
+}
+.words-6-2 h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 60px;
+}
+.words-6-1 img {
+    height: 30px;
+}
+.words-6-2 img {
+    height: 30px;
+}
+.words-6-1 p {
+    font-size: 22px;
+}
+.words-6-2 p {
+    font-size: 22px;
+}
+.words-6-1 a {
+    color: #2997ff;
+    font-size: 17px;
+    line-height: 40px;
+}
+.words-6-2 a {
+    color: #2997ff;
+    font-size: 17px;
+    line-height: 40px;   
+}
+.image-6-1 img {
+    height: 325px;
+}
+.image-6-2 img {
+    height: 325px;
+}
+.paragraph {
+    margin-left: 5cm;
+    margin-right: 5cm;
+    float: left;
+    margin-top: 30px;
+    border-bottom:grey;
+    padding-bottom: 50px;
+}
+.paragraph p {
+    font-size: 13px;
+    color: grey;
+}
+.menu-bar ul {
+    list-style: none;
+    font-size: 13px;
+    color: grey;
+    line-height: 25px;
+}
+.menu-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px;
+}
+.menu-bar :hover li {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.before-footer p {
+    font-size: 13px;
+    color: grey;
+    border-bottom: grey;
+    text-align: center;
+    padding: 30px;
+}
+.before-footer a {
+    color: #2997ff;
+}
+.footer p {
+    font-size: 13px;
+    color: grey;
+    text-align: center;
+
+}
